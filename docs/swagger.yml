@@ -1,0 +1,40 @@
+consumes:
+- application/json
+info:
+  description: From the todo list tutorial on goswagger.io
+  title: A gin-web application
+  version: 1.0.0
+paths:
+  /albums:
+    get:
+      operationId: GetAlbums
+      produces:
+      - application/json
+      responses:
+        "200":
+          $ref: ''
+      summary: Returns API status.
+      tags:
+      - Album
+  /albums/{id}:
+    get:
+      operationId: GetAlbumsByID
+      parameters:
+      - description: Get album details.
+        in: path  
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          $ref: ''
+      summary: Returns API status.
+      tags:
+      - AlbumById
+produces:
+- application/json
+schemes:
+- http
+swagger: "2.0"

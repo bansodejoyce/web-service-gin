@@ -24,6 +24,6 @@ To execute the unit test cases, following steps need to be executed
 ## Test Coverage
 Test coverage is a term that describes how much of a package's code is exercised by running the package's tests. If executing the test suite causes 80% of the package's source statements to be run, we say that the test coverage is 80%.
 
-1.  go test ./... -v -coverprofile cover.out ./
-2. go tool cover -html=cover.out -o cover.html
-3. open. cover.html
+1.  go test ./... -v -coverprofile coverage/cover.out ./
+2. go tool cover -html=coverage/cover.out -o coverage/cover.html
+3. open coverage/cover.html

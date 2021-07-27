@@ -3,8 +3,8 @@ run:
 run-test:
 	go test ./... -v
 run-test-coverage:
-	go test  ./...  -v -coverprofile cover.out ./
-	go tool cover -html=cover.out -o cover.html
+	go test  ./...  -v -coverprofile coverage/cover.out ./
+	go tool cover -html=coverage/cover.out -o coverage/cover.html
 build:
 	go mod tidy && go build -o bin/
 docker-build-run:

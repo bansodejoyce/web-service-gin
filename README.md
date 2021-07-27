@@ -17,3 +17,13 @@ Sample implementation of the REST framework Gin.
  2. https://blog.logrocket.com/
  3. https://levelup.gitconnected.com/
  
+## Unit - Test
+To execute the unit test cases, following steps need to be executed
+1. make run-test
+
+## Test Coverage
+Test coverage is a term that describes how much of a package's code is exercised by running the package's tests. If executing the test suite causes 80% of the package's source statements to be run, we say that the test coverage is 80%.
+
+1.  go test ./... -v -coverprofile cover.out ./
+2. go tool cover -html=cover.out -o cover.html
+3. open. cover.html

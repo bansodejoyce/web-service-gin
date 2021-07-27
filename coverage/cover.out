@@ -1,0 +1,22 @@
+mode: set
+web-service-gin/api/album/album.go:26.32,30.2 1 1
+web-service-gin/api/album/album.go:32.35,37.27 3 1
+web-service-gin/api/album/album.go:44.2,44.74 1 1
+web-service-gin/api/album/album.go:37.27,38.17 1 1
+web-service-gin/api/album/album.go:38.17,42.4 3 0
+web-service-gin/api/album/album.go:48.33,53.46 2 0
+web-service-gin/api/album/album.go:58.2,59.46 2 0
+web-service-gin/api/album/album.go:53.46,55.3 1 0
+web-service-gin/main.go:21.13,22.39 1 0
+web-service-gin/main.go:38.2,38.42 1 0
+web-service-gin/main.go:54.2,65.14 10 0
+web-service-gin/main.go:22.39,23.31 1 0
+web-service-gin/main.go:23.31,31.18 3 0
+web-service-gin/main.go:35.4,35.12 1 0
+web-service-gin/main.go:31.18,33.5 1 0
+web-service-gin/main.go:38.42,39.31 1 0
+web-service-gin/main.go:39.31,42.49 3 0
+web-service-gin/main.go:46.4,50.12 3 0
+web-service-gin/main.go:42.49,45.5 2 0
+web-service-gin/main.go:68.60,75.30 5 0
+web-service-gin/main.go:75.30,77.3 1 0
